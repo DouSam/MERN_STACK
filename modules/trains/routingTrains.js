@@ -14,7 +14,12 @@ router.get("/", async (req, res) => {
 
 router.get("/:id", async (req, res) => {
   let train = await findById(req.params.id);
-  res.json(train);
+  if(train != undefined){
+    res.json(train);
+  }
+  else {
+    res.sendStatus(404);
+  }
 });
 
 router.post("/", async (req, res) => {

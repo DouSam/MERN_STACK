@@ -16,7 +16,7 @@ module.exports = {
    * @returns {train} This return a unique train document.
    */
   findById: async function (id) {
-    let query = { _id: ObjectId(id) };
+    let query = { _id: id };
     return await dalTrains.findById(query);
   },
   /**
@@ -34,7 +34,7 @@ module.exports = {
    * @returns {UpdateResult}
    */
   updateById: async function (id, newTrain) {
-    let myquery = { _id: ObjectId(id) };
+    let myquery = { _id: id };
     newTrain = {
       "$set": newTrain,
     };
@@ -46,7 +46,7 @@ module.exports = {
    * @returns The number of documents deleted.
    */
   deleteById: async function (id) {
-    let myquery = { _id: ObjectId(id) };
+    let myquery = { _id: id };
     return await dalTrains.deleteById(myquery);
   },
 };

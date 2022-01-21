@@ -4,8 +4,9 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test" : "jest",
-    "start" : "node app.js"
+    "test": "jest",
+    "start": "node Server.js",
+    "mongo_reset": "mongo mern --eval 'db.dropDatabase()'"
   },
   "author": "Douglas Samuel",
   "license": "ISC",
@@ -16,6 +17,7 @@
     "mongodb": "^4.3.0"
   },
   "devDependencies": {
+    "axios": "^0.25.0",
     "jest": "^27.4.7"
   }
 }

@@ -76,7 +76,8 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ### Otimizações e refatorações
 
-- [ ] Nenhuma até o momento 😄.
+- [ ] Adicionar HATEOAS.
+- [ ] Adicionar verificações no arquivo routingTrains para retornar o código correto.
 
 # Autor 😄
 
