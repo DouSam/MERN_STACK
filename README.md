@@ -21,7 +21,7 @@ Aqui eu utilizo a arquitetura de camadas, basicamente é uma API REST para forne
 
 - [x] Conexão com o banco de dados.
 - [x] Criar a camada de acesso ao banco.
-- [ ] Criar a camada de serviço.
+- [x] Criar a camada de serviço.
 - [ ] Criar a camada de de rota.
 - [ ] Criar os metodos GET(All e por id), POST, PUT e DELETE.
 
