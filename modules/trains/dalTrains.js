@@ -18,9 +18,8 @@ module.exports = {
    * @param {ObjectId} id This param references the document id.
    * @returns {train} This return a unique train document.
    */
-  findById: async function (id) {
+  findById: async function (query) {
     let db_connect = dbo.getDb();
-    let query = { _id: ObjectId(id) };
     return await db_connect.collection("trains").findOne(query);
   },
   /**
@@ -38,19 +37,17 @@ module.exports = {
    * @param {Object<Train>} newTrain A object with the fields to update.
    * @returns {UpdateResult}
    */
-  updateById: async function (id, newTrain) {
+  updateById: async function (myQuery, newTrain) {
     let db_connect = dbo.getDb();
-    let myquery = { _id: ObjectId(id) };
-    return await db_connect.collection("trains").updateOne(myquery, newTrain);
+    return await db_connect.collection("trains").updateOne(myQuery, newTrain);
   },
   /**
    * Delete a document.
    * @param {ObjectId} id Id of the document that will be deleted.
    * @returns The number of documents deleted.
    */
-  deleteById: async function (id) {
+  deleteById: async function (myQuery) {
     let db_connect = dbo.getDb();
-    let myquery = { _id: ObjectId(id) };
-    return await db_connect.collection("trains").deleteOne(myquery);
+    return await db_connect.collection("trains").deleteOne(myQuery);
   },
 };
