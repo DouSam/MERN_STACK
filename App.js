@@ -10,8 +10,8 @@ app.use(cors());
 app.use(express.json());
 
 const dbo = require("./db/conn");
- 
-app.listen(port,host, () => {
+
+app.listen(port, host, () => {
   dbo.connectToServer(function (err) {
     if (err) console.error(err);
   });

@@ -1,10 +1,10 @@
-[<h3>English version here</h3>](https://github.com/DouSam/Lancho-Control/blob/main/README.us.md)
+[<h3>English version here</h3>](https://github.com/DouSam/MERN_STACK/blob/master/README.us.md)
 
 <h1 align="center">MERN stack</h1>
 
 ---
 
-<p align="center">Esse é um projeto template demonstrando como pode ser feito o uso da stack MERN(Mongo, Express, React, Node), aqui temos a implementação do back end e nesse outro repositório está a implementação do React como front end.
+<p align="justify">Esse é um projeto template demonstrando como pode ser feito o uso da stack MERN(Mongo, Express, React, Node), aqui temos a implementação do back end e nesse outro repositório está a implementação do React como front end.
 Aqui eu utilizo a arquitetura de camadas, basicamente é uma API REST para fornecer os dados ao front. Essa API não é RESTFul pois não implementa HATEOAS.</p>
 
 <p align="center">
@@ -20,8 +20,7 @@ Aqui eu utilizo a arquitetura de camadas, basicamente é uma API REST para forne
 ### 🏆 Funcionalidades
 
 - [x] Conexão com o banco de dados.
-- [ ] Criar modelo que será utilizado pela API.
-- [ ] Criar a camada de acesso ao banco.
+- [x] Criar a camada de acesso ao banco.
 - [ ] Criar a camada de serviço.
 - [ ] Criar a camada de de rota.
 - [ ] Criar os metodos GET(All e por id), POST, PUT e DELETE.

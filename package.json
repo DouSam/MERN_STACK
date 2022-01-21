@@ -1,10 +1,11 @@
 {
-  "name": "api-cryptotrains",
+  "name": "mern",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test" : "jest",
+    "start" : "node app.js"
   },
   "author": "Douglas Samuel",
   "license": "ISC",
@@ -13,5 +14,8 @@
     "dotenv": "^12.0.4",
     "express": "^4.17.2",
     "mongodb": "^4.3.0"
+  },
+  "devDependencies": {
+    "jest": "^27.4.7"
   }
 }
