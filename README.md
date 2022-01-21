@@ -1,69 +1,71 @@
-[<h3>English version here</h3>](https://github.com/DouSam/MERN_STACK/blob/master/README.us.md)
+[<h3>Versão em português</h3>](https://github.com/DouSam/MERN_STACK/blob/master/README.br.md)
 
 <h1 align="center">MERN stack</h1>
 
 ---
 
-<p align="justify">Esse é um projeto template demonstrando como pode ser feito o uso da stack MERN(Mongo, Express, React, Node), aqui temos a implementação do back end e nesse outro repositório está a implementação do React como front end.
-Aqui eu utilizo a arquitetura de camadas, basicamente é uma API REST para fornecer os dados ao front. Essa API não é RESTFul pois não implementa HATEOAS.</p>
+<p align="justify">This is a template project demonstrating how the MERN stack(Mongo, Express, React, Node) can be used, here we have the back end implementation and there is the React implementation as the front end.
+Here I use the layered architecture, basically it is a REST API to provide the data to the front end. This API is not RESTFul as it does not implement HATEOAS.</p>
+
+Front-End: [MERN Stack React](https://github.com/DouSam/MERN_STACK_REACT)
 
 <p align="center">
- <a href="#funcionalidades">Funcionalides</a> • 
- <a href="#pré-requisitos">Requisitos</a> • 
- <a href="#executando(servidor)">Executando</a> • 
- <a href="#tecnologias">Tecnologias</a> • 
- <a href="#autor">Autor</a>
+ <a href="#Functionalities">Functionalities</a> • 
+ <a href="#Prerequisites">Prerequisites</a> • 
+ <a href="#Running">Running</a> • 
+ <a href="#Technologies">Technologies</a> • 
+ <a href="#Author">Author</a>
 </p>
 
 ---
 
-### 🏆 Funcionalidades
+### 🏆 Functionalities
 
-- [x] Conexão com o banco de dados.
-- [x] Criar a camada de acesso ao banco.
-- [x] Criar a camada de serviço.
-- [x] Criar a camada de de rota.
-- [x] Criar os metodos GET(All e por id), POST, PUT e DELETE.
+- [x] Database connection.
+- [x] Create the database access layer.
+- [x] Create the service layer.
+- [x] Create the routing layer.
+- [x] Create the GET(All and by id), POST, PUT and DELETE methods.
 
 ---
 
-### 📋 Pré-requisitos
+### 📋 Prerequisites
 
-Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+Before you start, you will need to have the following tools installed on your machine:
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/), [MongoDB](https://www.mongodb.com/try/download/community). 
-Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/).
+In addition it is good to have an editor to work with the code like [VSCode](https://code.visualstudio.com/).
 
 ---
 
-### 🎲 Executando(Servidor)
+### 🎲 Running
 
 ```bash
-# Clone este repositório
+# Clone this repository
 $ gh repo clone DouSam/MERN_STACK
 
-# Acesse a pasta do projeto no terminal/cmd
+# Go to the project folder in terminal/cmd
 
-# Instale as dependências
+# Install the dependencies
 $ npm install
 
-#Crie o arquivo config.env no padrão abaixo
+# Create the config.env file in the pattern below
 
 HOST=127.0.0.1
 PORT=2890
 MONGO_URI=mongodb://127.0.0.1:27017/
 DB_NAME=DBNAME
 
-# Execute a aplicação
-$ node app.js
+# Run the application
+$ npm start
 
-# O servidor inciará na porta inserida no arquivo config.env - acesse <http://localhost:<PORT>>
+# The server will start on the port entered in the config.env file - go to <http://localhost:<PORT>>
 ```
 
 ---
 
-### 🛠 Tecnologias
+### 🛠 Technologies
 
-As seguintes ferramentas foram usadas na construção do projeto:
+The following tools were used in the construction of the project:
 
 - [Node.js](https://nodejs.org/en/)
 - [MongoDB](https://www.mongodb.com/)
@@ -75,12 +77,12 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ---
 
-### Otimizações e refatorações
+### Optimizations and refactorings
 
-- [ ] Adicionar HATEOAS.
-- [ ] Adicionar verificações no arquivo routingTrains para retornar o código correto.
+- [ ] Add HATEOAS.
+- [ ] Add checks to the routingTrains file to return the correct code.
 
-# Autor 😄
+# Author 😄
 
 <p align="center">
 <a href="https://github.com/DouSam" align="center">
@@ -88,7 +90,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
  <br />
  <sub><b>Douglas Samuel</b></sub></a>
 
-Feito com ❤️ por Douglas Samuel!
+Made with ❤️ by Douglas Samuel!
 
 [![Gmail Badge](https://img.shields.io/badge/-douglassam007@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:douglassam007@gmail.com)](mailto:douglassam007@gmail.com)
 </p>
