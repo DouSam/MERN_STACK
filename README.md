@@ -71,6 +71,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [CORS](https://github.com/expressjs/cors/)
 - [.ENV](https://docs.dotenv.org/)
 - [MongoDB Driver](https://www.npmjs.com/package/mongodb)
+- [Jest](https://jestjs.io/pt-BR/)
 
 ---
 
