@@ -19,7 +19,7 @@ Front-End: [MERN Stack React](https://github.com/DouSam/MERN_STACK_REACT)
 
 ---
 
-### 🏆 Functionalities
+### 🏆Functionalities
 
 - [x] Database connection.
 - [x] Create the database access layer.
