@@ -4,7 +4,7 @@
 
 ---
 
-<p align="justify">Esse é um projeto template demonstrando como pode ser feito o uso da stack MERN(Mongo, Express, React, Node), aqui temos a implementação do back end e  está a implementação do React como front end.
+<p align="justify">Esse é um projeto template demonstrando como pode ser feito o uso da stack MERN(Mongo, Express, React, Node), aqui temos a implementação do back end e está a implementação do React como front end.
 Aqui eu utilizo a arquitetura de camadas, basicamente é uma API REST para fornecer os dados ao front. Essa API não é RESTFul pois não implementa HATEOAS.</p>
 
 Repositório Front-End: [MERN Stack React](https://github.com/DouSam/MERN_STACK_REACT)
@@ -19,7 +19,7 @@ Repositório Front-End: [MERN Stack React](https://github.com/DouSam/MERN_STACK_
 
 ---
 
-### 🏆 Funcionalidades
+### 🏆Funcionalidades
 
 - [x] Conexão com o banco de dados.
 - [x] Criar a camada de acesso ao banco.
@@ -29,7 +29,7 @@ Repositório Front-End: [MERN Stack React](https://github.com/DouSam/MERN_STACK_
 
 ---
 
-### 📋 Pré-requisitos
+### 📋Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/), [MongoDB](https://www.mongodb.com/try/download/community). 
@@ -37,7 +37,7 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 
 ---
 
-### 🎲 Executando(Servidor)
+### 🎲Executando(Servidor)
 
 ```bash
 # Clone este repositório
@@ -63,7 +63,7 @@ $ node app.js
 
 ---
 
-### 🛠 Tecnologias
+### 🛠Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
@@ -82,7 +82,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [ ] Adicionar HATEOAS.
 - [ ] Adicionar verificações no arquivo routingTrains para retornar o código correto.
 
-# Autor 😄
+### Autor😄
 
 <p align="center">
 <a href="https://github.com/DouSam" align="center">

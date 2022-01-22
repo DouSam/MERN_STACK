@@ -29,7 +29,7 @@ Front-End: [MERN Stack React](https://github.com/DouSam/MERN_STACK_REACT)
 
 ---
 
-### 📋 Prerequisites
+### 📋Prerequisites
 
 Before you start, you will need to have the following tools installed on your machine:
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/), [MongoDB](https://www.mongodb.com/try/download/community). 
@@ -37,7 +37,7 @@ In addition it is good to have an editor to work with the code like [VSCode](htt
 
 ---
 
-### 🎲 Running
+### 🎲Running
 
 ```bash
 # Clone this repository
@@ -63,7 +63,7 @@ $ npm start
 
 ---
 
-### 🛠 Technologies
+### 🛠Technologies
 
 The following tools were used in the construction of the project:
 
@@ -82,7 +82,7 @@ The following tools were used in the construction of the project:
 - [ ] Add HATEOAS.
 - [ ] Add checks to the routingTrains file to return the correct code.
 
-# Author 😄
+### Author😄
 
 <p align="center">
 <a href="https://github.com/DouSam" align="center">
